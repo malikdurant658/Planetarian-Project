@@ -1,0 +1,19 @@
+Acceptance Testing
+No Confidence in Security: Missing password reset and no login attempt limitations reduce the reliability of security protocols.
+
+Mixed User Experience: A lack of intuitive navigation on the account creation page (missing link back to login) detracts from user flow.
+
+Visual and Usability Constraints: Users cannot add planets or moons without an image, which could limit ease of use. Additionally, limited file type support for images affects user experience, especially if they’re unaware of required formats.
+
+Sprint Retrospective
+What Went Well:
+Thorough Understanding of Requirements: A strong understanding of project requirements helped efficiently target high-priority defects.
+Efficient Environment Setup: Automated setup and teardown for the test environment minimized setup time, contributing to a smoother test cycle.
+Effective Use of Test Strategy: Implementing boundary analysis and error-guess testing early on helped reveal significant edge cases and security issues.
+What Could Be Improved:
+Balance Between Test Case Development and Execution: I initially planned for 40 test cases but wasn’t able to execute all of them, as much of my time went into developing these test cases in detail. In future sprints, I’ll aim to prioritize key test cases for early execution and follow up with additional cases based on insights gained. This approach should help maintain a balance between planning and execution.
+Next Sprint Planning:
+Further Security Testing: Perform more in-depth security tests, focusing on password reset functionality and access limitations.
+Enhance Usability Testing: Conduct additional usability tests on the UI, especially for account creation flow and navigation.
+Explore Additional Edge Cases: Run further tests on image file type restrictions and deletion dependencies between celestial bodies to ensure complete coverage.
+Update Time Estimates: Based on the time spent on test development, adjust story points and velocity estimates to improve planning accuracy.
